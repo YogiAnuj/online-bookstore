@@ -4,3 +4,7 @@ body {
 .page-wrap {
     min-height: 70vh;
 }
+
+a:hover{
+    text-decoration: none;
+}
