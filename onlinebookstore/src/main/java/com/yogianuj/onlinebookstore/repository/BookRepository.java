@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.yogianuj.onlinebookstore.entity.Book;
 
-@CrossOrigin("http://localhost:4200")
+
 @RepositoryRestResource(collectionResourceRel="book", path="book")
 public interface BookRepository extends JpaRepository<Book, Long>{
 
